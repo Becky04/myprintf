@@ -2,13 +2,13 @@
 /**
   *_printf - formats a string and print the string
   *@format: the string format
-  *
   *Return: 0 on success and -1 on error
   */
 int _printf(const char *format, ...)
 {
 	va_list ap;
 	int i = 0, j = 0;
+
 	va_start(ap, format);
 	if (format)
 	{
